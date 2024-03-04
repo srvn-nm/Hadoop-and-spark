@@ -5,15 +5,15 @@
 
 Purpose for this tutorial is to show how to get started with Hadoop, Spark and Jupyter for your BigData solution, deploy as Docker Containers.
 
-![Architecture overview][arch]
-
 ## Pre-requisite
-- Only confirmed working on Linux/Windows (Apple Silicon might have issues).
+- Apple Silicon might use arm64 branch to install.
 - Ensure Docker is installed.
 
 ## Start
-
 Execute `bash master-build.sh` to start the the build and start the containers.
+
+## Stop
+Execute `bash master-delete.sh` to stop the containers.
 
 ### Hadoop
 Access Hadoop UI on ' http://localhost:9870 '
