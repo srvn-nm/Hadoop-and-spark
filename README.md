@@ -1,9 +1,9 @@
-# BigData Solution written in Python based on Hadoop and Spark.
+# BigData Solution for Hadoop and Spark.
 ### Scale your data management by distributing workload and storage on Hadoop and Spark Clusters, explore and transform your data in Jupyter Notebook.
 
 ## About The Project
 
-Purpose for this tutorial is to show how to get started with Hadoop, Spark and Jupyter for your BigData solution, deploy as Docker Containers.
+Purpose for this tutorial is to show how to get started with Hadoop, Spark and Jupyter for your BigData solution, deployed as Docker Containers.
 
 ## Pre-requisite
 - Apple Silicon might use arm64 branch to install.
