@@ -7,3 +7,19 @@ The input lines are expected to be sorted by the word. The reducer uses this sor
 aggregate document IDs by using a set data structure, transitioning between different words as it processes
 the input lines one-by-one.
 """
+import sys
+from collections import defaultdict
+
+unique_document_ids = defaultdict(list)
+
+for line in sys.stdin:
+    # Split the input line into word and document IDs
+    word, document_id = line.strip().split('\t')
+
+    # Add the document ID to the list for the current word
+    unique_document_ids[word].append(document_id)
+
+# Emit each word and its unique document IDs
+for word, document_ids in unique_document_ids.items():
+    unique_document_ids_string = ','.join(document_ids)
+    sys.stdout.write('%s\t%s\n' % (word, unique_document_ids_string))
