@@ -23,3 +23,4 @@ for line in sys.stdin:
 for word, document_ids in unique_document_ids.items():
     unique_document_ids_string = ','.join(document_ids)
     sys.stdout.write('%s\t%s\n' % (word, unique_document_ids_string))
+    print(f"{word}\t, {unique_document_ids_string}")
