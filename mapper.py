@@ -7,8 +7,9 @@ import sys
 
 for line in sys.stdin:
     # Split the input line into document ID and text
-    document_id, text = line.strip().split('\t')
+    document_id, text = line.strip().split(',')
 
     # For each word in the text, emit a unique pair of (word, document ID)
     for word in text.split():
         sys.stdout.write('%s\t%s\n' % (word, document_id))
+        print(f"{word}\t{document_id}")
