@@ -1,0 +1,33 @@
+scalable	doc13
+science	        doc1
+secures	        doc7
+security	doc4
+shopping	doc20
+significantly	doc17
+simulations	doc4
+smart	     doc23, doc2
+social	        doc11
+solutions	doc13, doc3
+speeds	       doc16
+storage	     doc8, doc13
+strategies	doc11
+streamline	doc20
+sustainable	doc17
+tackles	        doc25
+tasks	        doc12
+techniques	doc21
+technology	doc16, doc23, doc3, doc19, doc5
+telemedicine	doc9
+through	        doc3
+time	        doc19
+to	    doc21, doc18
+transactions	doc14, doc7
+transfer	doc16
+transforms	doc5
+urban	     doc5, doc23
+used	        doc21
+utilize	        doc18
+vehicles	doc2
+virtual	        doc6
+wearable	doc19
+with	   doc22, doc24
